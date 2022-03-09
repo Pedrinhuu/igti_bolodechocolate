@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root{
-    --cor1:#080f0f;
-    --cor2:#A4BAB7;
-    --cor3:#EFF2C0;
-    --cor4:#BEA57D;
-    --cor5:#A52422;
+    --cor1:#E0D3DE;
+    --cor2:#D8D0C1;
+    --cor3:#CBB8A9;
+    --cor4:#B3B492;
+    --cor5:#6F686D;
 
 }
 
@@ -13,7 +13,7 @@ body{
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor3);
+    background-color: var(--cor1);
 }
 
 main{
@@ -64,7 +64,7 @@ h1{
 }
 
 .origem-bolo-texto{
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     padding: 10px 10px 10px 20px;
 }
 
@@ -106,7 +106,7 @@ h1{
 }
 
 aside{
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     padding: 20px;
     margin-left: 150px;
     max-height: 400px;
@@ -146,17 +146,16 @@ aside{
     display: flex;
     justify-content: space-around;
     background-color: #080f0f;
-    color: white;
-    padding: 0 20px;
+    color: white;    
     width: 100%;
+    
 
 
 }
 
 .icone{
-    padding: 10px;
+    padding: 8px;
     width: 30px;
-
 
 }
 
