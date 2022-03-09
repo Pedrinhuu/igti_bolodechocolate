@@ -118,12 +118,58 @@ aside{
 
 }
 
+.center{
+    display: flex;    
+    justify-content: center;
+
+}
+
+
 .form{
     display: flex;
     flex-flow: column wrap;
+    width: 500px;
+    justify-content: center;
+
+}
+
+
+.botoes{
+    margin-top: 10px;
+    margin-bottom: 10px ;
+
+}
+
+
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color: #080f0f;
+    color: white;
+    padding: 0 20px;
+    width: 100%;
 
 
 }
 
+.icone{
+    padding: 10px;
+    width: 30px;
+
+
+}
+
+footer > div > p > a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer > div > p > a:hover{
+    text-decoration: underline;
+    color: #A52422;
+
+}
 
 
