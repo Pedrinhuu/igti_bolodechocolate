@@ -18,7 +18,7 @@ body{
 
 main{
     width: 100%;
-    max-width: 1800px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -50,14 +50,14 @@ h1{
     padding: 30px;
 }
 
-.origem-bolo{
+#origem-bolo{
     display: flex;
     flex-flow: row nowrap;
 }
 
 .img01{
     width: 100%;
-    max-width: 300px;
+    max-width: 500px;
     height: auto;
     
     
@@ -80,7 +80,7 @@ h1{
 
 .img02{
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
     max-height: 400px;
 }
@@ -92,7 +92,7 @@ h1{
 
 }
 
-.receita-bolo{
+#receita-bolo{
     display: flex;
     flex-flow: row nowrap;
     
@@ -110,10 +110,11 @@ aside{
     padding: 20px;
     margin-left: 150px;
     max-height: 400px;
+    
 
 }
 
-.contato{
+#contato{
     text-align: center;
 
 }
@@ -144,31 +145,75 @@ aside{
 
 .rodape{
     display: flex;
-    justify-content: space-around;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
     background-color: #080f0f;
-    color: white;    
+    color: white;
+    padding: 10px;
     width: 100%;
-    
 
 
 }
 
 .icone{
-    padding: 8px;
-    width: 30px;
+    padding: 5px;
+    max-width: 30px;
+    height: auto;
+    margin-top: 5px;
 
 }
 
-footer > div > p > a{
+footer > p > a{
     text-decoration: none;
     color: white;
 
 }
 
-footer > div > p > a:hover{
+footer > p > a:hover{
     text-decoration: underline;
     color: #A52422;
 
 }
 
+
+@media screen and (max-width: 600px) {
+
+    #origem-bolo{
+        flex-flow: column wrap;
+        padding: 20px;
+    }
+
+
+    .receita-bolo-completo{
+        flex-flow: column wrap;
+        padding: 20px;
+    }
+    
+    
+    
+    
+    #receita-bolo{
+        flex-flow: column wrap;
+        padding: 20px;
+    }
+
+
+    .form{
+        padding: 20px;
+
+    }
+
+
+    .rodape{
+        flex-flow: column wrap;
+        text-align: center;
+    
+    
+    }
+
+    aside{
+        margin-left: 0px;       
+    }
+    
+}
 
